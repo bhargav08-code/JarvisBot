@@ -170,7 +170,7 @@ const RightSection = () => {
                                 <div key={index} className={styles.message}>
                                     <Image src={msg.role === 'user' ? nouserlogo : chatgptlogo2} width={50} height={50} alt="" />
                                     <div className={styles.details}>
-                                        <h2>{msg.role === 'user' ? 'You' : 'CHATGPT Bot'}</h2>
+                                        <h2>{msg.role === 'user' ? 'You' : 'Jarvis Bot'}</h2>
                                         <p>{msg.parts[0].text}</p>
                                     </div>
                                 </div>
